@@ -1,0 +1,22 @@
+{
+    "auth": {
+        "cognitoad873bd3": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation"
+        }
+    },
+    "analytics": {
+        "effb5f996d8b420997d48f30bcf2351c": {
+            "service": "Pinpoint",
+            "providerPlugin": "awscloudformation"
+        }
+    },
+    "notifications": {
+        "ez123_mobileEIYoz": {
+            "service": "Pinpoint",
+            "channels": [
+                "FCM"
+            ]
+        }
+    }
+}

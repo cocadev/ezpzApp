@@ -1,0 +1,29 @@
+Failed to load bundle(http://localhost:8081/index.bundle?platform=ios&dev=true&minify=false) with error:(Unable to resolve module `_wrapObjectFreezeAndFriends` from `/Volumes/Mac HD/Mobile_Projects/ez123_mobile/node_modules/react-native/Libraries/Core/polyfillES6Collections.js`: Module `_wrapObjectFreezeAndFriends` does not exist in the Haste module map
+
+This might be related to https://github.com/facebook/react-native/issues/4968
+To resolve try the following:
+  1. Clear watchman watches: `watchman watch-del-all`.
+  2. Delete the `node_modules` folder: `rm -rf node_modules && npm install`.
+  3. Reset Metro Bundler cache: `rm -rf /tmp/metro-bundler-cache-*` or `npm start -- --reset-cache`.
+  4. Remove haste cache: `rm -rf /tmp/haste-map-react-native-packager-*`. (null))
+
+__38-[RCTCxxBridge loadSource:onProgress:]_block_invoke.213
+    RCTCxxBridge.mm:414
+___ZL36attemptAsynchronousLoadOfBundleAtURLP5NSURLU13block_pointerFvP18RCTLoadingProgressEU13block_pointerFvP7NSErrorP9RCTSourceE_block_invoke.118
+__80-[RCTMultipartDataTask URLSession:streamTask:didBecomeInputStream:outputStream:]_block_invoke
+-[RCTMultipartStreamReader emitChunk:headers:callback:done:]
+-[RCTMultipartStreamReader readAllPartsWithCompletionCallback:progressCallback:]
+-[RCTMultipartDataTask URLSession:streamTask:didBecomeInputStream:outputStream:]
+__88-[NSURLSession delegate_streamTask:didBecomeInputStream:outputStream:completionHandler:]_block_invoke
+__NSBLOCKOPERATION_IS_CALLING_OUT_TO_A_BLOCK__
+-[NSBlockOperation main]
+-[__NSOperationInternal _start:]
+__NSOQSchedule_f
+_dispatch_call_block_and_release
+_dispatch_client_callout
+_dispatch_continuation_pop
+_dispatch_async_redirect_invoke
+_dispatch_root_queue_drain
+_dispatch_worker_thread2
+_pthread_wqthread
+start_wqthread

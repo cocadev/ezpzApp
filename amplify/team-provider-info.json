@@ -1,0 +1,44 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "ez123mobile-dev-20190716121120-authRole",
+            "UnauthRoleArn": "arn:aws:iam::175304571392:role/ez123mobile-dev-20190716121120-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::175304571392:role/ez123mobile-dev-20190716121120-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "ez123mobile-dev-20190716121120-deployment",
+            "UnauthRoleName": "ez123mobile-dev-20190716121120-unauthRole",
+            "StackName": "ez123mobile-dev-20190716121120",
+            "StackId": "arn:aws:cloudformation:us-east-1:175304571392:stack/ez123mobile-dev-20190716121120/b9a69010-a794-11e9-9f91-0a9ef6cbb06a"
+        },
+        "categories": {
+            "auth": {
+                "cognitoad873bd3": {}
+            }
+        }
+    },
+    "ezpzmobile": {
+        "awscloudformation": {
+            "AuthRoleName": "ez123mobile-ezpzmobile-20190726162020-authRole",
+            "UnauthRoleArn": "arn:aws:iam::175304571392:role/ez123mobile-ezpzmobile-20190726162020-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::175304571392:role/ez123mobile-ezpzmobile-20190726162020-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "ez123mobile-ezpzmobile-20190726162020-deployment",
+            "UnauthRoleName": "ez123mobile-ezpzmobile-20190726162020-unauthRole",
+            "StackName": "ez123mobile-ezpzmobile-20190726162020",
+            "StackId": "arn:aws:cloudformation:us-east-1:175304571392:stack/ez123mobile-ezpzmobile-20190726162020/2a90d960-af93-11e9-93a8-127e9735111e"
+        },
+        "categories": {
+            "auth": {
+                "cognitoad873bd3": {}
+            },
+            "notifications": {
+                "Pinpoint": {
+                    "Name": "ez123_mobileEIYoz-ezpzmobile",
+                    "Id": "efd4a0535fd34241b8ec251c67c0c930",
+                    "Region": "us-east-1"
+                    
+                }
+            }
+        }
+    }
+}

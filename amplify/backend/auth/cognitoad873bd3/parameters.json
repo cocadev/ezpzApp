@@ -1,0 +1,25 @@
+{
+    "identityPoolName": "ez123_mobile_identitypool_85828f42",
+    "allowUnauthenticatedIdentities": true,
+    "openIdLambdaRoleName": "ez123_85828f42_openid_lambda_role",
+    "authSelections": "identityPoolOnly",
+    "resourceName": "cognitoad873bd3",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    }
+}

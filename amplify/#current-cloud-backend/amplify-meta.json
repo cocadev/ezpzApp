@@ -1,0 +1,69 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "ez123mobile-ezpzmobile-20190726162020-authRole",
+			"UnauthRoleArn": "arn:aws:iam::175304571392:role/ez123mobile-ezpzmobile-20190726162020-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::175304571392:role/ez123mobile-ezpzmobile-20190726162020-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "ez123mobile-ezpzmobile-20190726162020-deployment",
+			"UnauthRoleName": "ez123mobile-ezpzmobile-20190726162020-unauthRole",
+			"StackName": "ez123mobile-ezpzmobile-20190726162020",
+			"StackId": "arn:aws:cloudformation:us-east-1:175304571392:stack/ez123mobile-ezpzmobile-20190726162020/2a90d960-af93-11e9-93a8-127e9735111e"
+		}
+	},
+	"auth": {
+		"cognitoad873bd3": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/ez123mobile-ezpzmobile-20190726162020-deployment/amplify-cfn-templates/auth/cognitoad873bd3-cloudformation-template.yml",
+				"logicalId": "authcognitoad873bd3"
+			},
+			"lastPushTimeStamp": "2019-07-26T11:01:50.576Z",
+			"output": {
+				"IdentityPoolId": "us-east-1:527e71fc-9605-4155-bad0-43ed4acd7b30",
+				"IdentityPoolName": "ez123_mobile_identitypool_85828f42__ezpzmobile"
+			},
+			"lastPushDirHash": "dawO85PAgg9Rj1pqZxLFn4scL98="
+		}
+	},
+	"analytics": {
+		"effb5f996d8b420997d48f30bcf2351c": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/ez123mobile-ezpzmobile-20190726162020-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticseffb5f996d8b420997d48f30bcf2351c"
+			},
+			"lastPushTimeStamp": "2019-07-26T11:01:50.576Z",
+			"output": {
+				"appName": "effb5f996d8b420997d48f30bcf2351c-ezpzmobile",
+				"Region": "us-east-1",
+				"Id": "b7fd63e6ea564a6e90bd25b5edad86fd"
+			},
+			"lastPushDirHash": "n/eSzzYC7/OB3UIg1gGmDs2bb48="
+		}
+	},
+	"notifications": {
+		"ez123_mobileEIYoz": {
+			"service": "Pinpoint",
+			"output": {
+				"Name": "ez123_mobileEIYoz-ezpzmobile",
+				"Id": "efd4a0535fd34241b8ec251c67c0c930",
+				"Region": "us-east-1",
+				"FCM": {
+					"ApplicationId": "efd4a0535fd34241b8ec251c67c0c930",
+					"CreationDate": "2019-07-26T10:59:20.136Z",
+					"Enabled": true,
+					"HasCredential": true,
+					"Id": "gcm",
+					"IsArchived": false,
+					"LastModifiedDate": "2019-07-26T10:59:20.136Z",
+					"Platform": "GCM",
+					"Version": 1
+				}
+			},
+			"lastPushTimeStamp": "2019-07-26T10:58:54.312Z"
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "513273904900",
+    "firebase_url": "https://ezpzorder.firebaseio.com",
+    "project_id": "ezpzorder",
+    "storage_bucket": "ezpzorder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513273904900:android:d05c16d3faf61569",
+        "android_client_info": {
+          "package_name": "com.ez123_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513273904900-6b5fq6shspa605mjvgu88ilvn177v1fc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBd-44-_oprDW7TKadkbjs2ela2EDvtBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513273904900-6b5fq6shspa605mjvgu88ilvn177v1fc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
